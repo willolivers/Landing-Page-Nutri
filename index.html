@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=js, initial-scale=1.0">
     <title>Landing Page Nutri</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/mobile.css">
 </head>
 <body>
     <header id="header"> 
         <img src="assets/images/logo.svg" alt="logo">
         <menu id="menu">
+            <label for="burger" class="burger">
+                <input id="burger" type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
             <ul id="nav-bar">
                 <li><a href="#" class="link-nav-bar">Quem sou eu?</a></li>
                 <li><a href="#" class="link-nav-bar">Minhas especialidades</a></li>
@@ -23,9 +30,9 @@
             <img src="assets/images/img-background.svg" alt="">
             <img src="assets/images/img-separator-1.svg" alt="">
         </section>
-        <section id="who-am-i">
-            <article id="box-who-am-i">
-                <h2 id="title-who-am-i">Quem sou eu?</h2>
+        <section id="quem-sou-eu">
+            <article id="box-quem-sou-eu">
+                <h2 id="title-quem-sou-eu">Quem sou eu?</h2>
                 <p id="text-box">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat ipsa accusantium consequuntur facilis. Cupiditate sequi sit nihil quasi? Fugit maxime hic porro repellat voluptatem maiores ut fugiat itaque autem ullam!
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo. Neque corrupti suscipit maxime, facilis aperiam blanditiis in officiis, ducimus nesciunt tenetur debitis. Nihil accusamus neque molestias. Obcaecati, autem iure.
@@ -33,9 +40,52 @@
             </article>
             <img src="assets/images/img-perfil.svg" alt="">
         </section>
-        <!-- CONTINUA COM OS PROXIMOS SECTION -->
+        <section id="box-minhas-especialidades">
+            <h2 id="title-especialidades">Minhas especialidades</h2>
+            <div class="box-especialidades box1">
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="box-especialidades box2">
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="box-especialidades box3">
+                <h3></h3>
+                <p></p>
+            </div>
+            <a href="#">Saiba mais sobre</a> 
+        </section>
+        <section id="consultas">
+            <article id="consulta-presencial">
+                <div id="box-local-consulta">
+                    <img src="assets/images/img-local.svg" alt="imagem do consultorio">
+                </div>
+                <div class="box-consulta presencial">
+                    <h3>Consulta presencial</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nisi veritatis delectus possimus officia blanditiis nobis inventore ex, facere maiores sint rem et ad cumque in eligendi aperiam corrupti earum!</p>
+                    <a href="#">Saiba mais sobre</a>
+                </div>
+            </article>
+            <img src="assets/images/img-separator-2.svg" alt="separador de informacoes">
+            <article id="consulta-presencial">
+                <div id="box-local-consulta">
+                    <img src="assets/images/img-online.svg" alt="imagem da consulta online">
+                </div>
+                <div class="box-consulta presencial">
+                    <h3>Consulta on-line</h3> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor nisi veritatis delectus possimus officia blanditiis nobis inventore ex, facere maiores sint rem et ad cumque in eligendi aperiam corrupti earum!</p>
+                    <a href="#">Saiba mais sobre</a>
+                </div>
+            </article>
+        </section>
     </main>
-    <footer></footer>
+    <footer id="footer-contato">
+        <h2>Contato</h2>
+        <a href="#" class="contatos-links link-whatsapp">Whatsapp</a>
+        <a href="#" class="contatos-links link-instagram">Instagram</a>
+        <a href="#" class="contatos-links link-email">Email</a>
+    </footer>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
