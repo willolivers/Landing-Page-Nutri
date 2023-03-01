@@ -9,26 +9,40 @@
     <link rel="stylesheet" href="assets/styles/mobile.css">
 </head>
 <body>
-    <header id="header"> 
-        <img src="assets/images/logo.svg" alt="logo">
-        <menu id="menu">
-            <label for="burger" class="burger">
-                <input id="burger" type="checkbox">
-                <span></span>
-                <span></span>
-                <span></span>
-              </label>
-            <ul id="nav-bar">
-                <li><a href="#" class="link-nav-bar">Quem sou eu?</a></li>
-                <li><a href="#" class="link-nav-bar">Minhas especialidades</a></li>
-                <li><a href="#" id="link-nav-bar-whats">Agendar consulta</a></li>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="assets/images/logo.svg" alt="logo">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Quem sou eu?</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Minhas especialidades</a></li>
+                </ul>
+                <div class="login-button">
+                    <button><a href="#">Agendar consulta</a></button>
+                </div>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/images/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Quem sou eu?</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Minhas especialidades</a></li>
+                <li class="login-button nav-item">
+                    <button><a href="#">Agendar consulta</a></button>
+                </li>
             </ul>
-        </menu>
+        </div>
     </header>
     <main>
         <section class="img-background">
-            <img src="assets/images/img-background.svg" alt="">
-            <img src="assets/images/img-separator-1.svg" alt="">
+            <img class="imgs-pg" src="assets/images/img-background.svg" alt="imagem de fundo do nutricionista">
+            <img class="imgs-pg separador" src="assets/images/img-separator-1.svg" alt="separador">
         </section>
         <section id="quem-sou-eu">
             <article id="box-quem-sou-eu">
