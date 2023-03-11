@@ -4,9 +4,10 @@
 :root{
     --color01:#265D3E;
     --color02:#FFAA51;
-    --color03:#919974;
+    --color03:#91997480;
     --color04:#F5E7CC;
     --color05:#FFFFFF;
+    --color06:#d9d9d981;
 }
 
 @media (max-width: 730px){
@@ -67,12 +68,12 @@
         flex-direction: column-reverse;
         justify-content: space-evenly;
         align-items: center;
-        padding: 20px;
+        padding: 20px 20px 53px 20px;
+        gap: 30px;
     }
 
     .img-perfil{
         width: 200px;
-        transform: translate(0%, -30%);
     }
 
     #box-quem-sou-eu{
@@ -83,6 +84,7 @@
         color: var(--color04);
         border-radius: 10px;
         padding: 20px;
+        width: 85%;
     }
     
     #box-quem-sou-eu h2{
@@ -97,5 +99,109 @@
         font-size: 1rem;
         margin: 20px 0px;
         text-align: center;
+    }
+
+    /*****************ZONA "MINHAS ESPECIALIDADES"************************/
+
+    #box-minhas-especialidades{
+        background-color: var(--color01);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #box-minhas-especialidades h2{
+        font-family: 'Lobster Two', cursive;
+        color: var(--color02);
+        font-weight: 400;
+        font-size: 2.2em;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .box-especialidades{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        width: 80%;
+        padding: 30px 20px;
+        text-align: center;
+        border: 1px solid var(--color05);
+        border-radius: 10px;
+        background-color: var(--color03);
+        color: var(--color05);
+    }
+
+    .box-especialidades h3{
+        font-size: 1.3em;
+        font-weight: 600;
+        text-transform: uppercase
+    }
+
+    .box-especialidades p{
+        font-size: 1.1em;
+        font-weight: 400;
+    }
+
+    #btn-whatsapp-box-especialidades{
+        text-decoration: none;
+        background-color: var(--color02);
+        color: var(--color01);
+        padding: 15px 30px;
+        border-radius: 20px;
+        font-size: 1em;
+        font-weight: 600;
+        margin-bottom: 35px;
+    }
+
+    /*****************ZONA "CONSULTAS"***************************/
+
+    #consultas{
+        background-color: var(--color02);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .box-consulta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        width: 85%;
+        text-align: center;
+        border-radius: 10px;
+        background-color: var(--color06);
+        color: var(--color05);
+        margin-top: 45px;
+        padding: 45px 15px;
+    }
+
+    #box-local-consulta{
+        padding-top: 35px;
+    }
+
+    .presencial{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #btn-whatsapp-box-consulta-presencial{
+        text-decoration: none;
+        background-color: var(--color02);
+        color: var(--color01);
+        padding: 15px 30px;
+        border-radius: 20px;
+        font-size: 1em;
+        font-weight: 600;
+        margin: 35px 0px 35px 0px;
     }
 }
