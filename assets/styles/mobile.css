@@ -160,6 +160,12 @@
         font-size: 1em;
         font-weight: 600;
         margin-bottom: 35px;
+        transition: .5s;
+    }
+
+    #btn-whatsapp-box-especialidades:hover{
+        scale: 1.1;
+        background-color: #ffc281;
     }
 
     /*****************ZONA "CONSULTAS"***************************/
@@ -229,6 +235,12 @@
         border-radius: 20px;
         font-size: 1em;
         font-weight: 400;
+        transition: .5s;
+    }
+
+    #btn-whatsapp-box-consulta-presencial:hover{
+        scale: 1.1;
+        background-color: #3b8159;
     }
 
     .online{
@@ -263,6 +275,12 @@
         border-radius: 20px;
         font-size: 1em;
         font-weight: 500;
+        transition: .5s;
+    }
+
+    #btn-whatsapp-box-consulta-online:hover{
+        scale: 1.1;
+        background-color: #ffc281;
     }
 
         /*****************ZONA "RODAPE"***************************/
@@ -299,5 +317,11 @@
         padding: 15px;
         border-radius: 40px;
         width: 80%;
+        transition: .5s;
+    }
+
+    #footer-contato a:hover{
+        scale: 1.1;
+        background-color: #3b8159;
     }
 }
