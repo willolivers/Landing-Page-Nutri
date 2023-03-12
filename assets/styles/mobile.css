@@ -13,6 +13,10 @@
 @media (max-width: 730px){
     .nav-bar{
         padding: 1.5rem 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
     }
     .nav-item{
         display: none;
@@ -117,7 +121,7 @@
         font-family: 'Lobster Two', cursive;
         color: var(--color02);
         font-weight: 400;
-        font-size: 2.2em;
+        font-size: 2.5em;
         text-align: center;
         margin-top: 25px;
     }
@@ -170,18 +174,35 @@
         text-align: center;
     }
 
+    .img-consultas{
+        width: 90%;
+    }
+
     .box-consulta{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 25px;
-        width: 85%;
+        width: 75%;
         text-align: center;
         border-radius: 10px;
         background-color: var(--color06);
         color: var(--color05);
         margin-top: 45px;
+        margin-bottom: 45px;
         padding: 45px 15px;
+    }
+
+    .presencial h3{
+        color: var(--color01);
+        font-family: 'Lobster Two', cursive;
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+
+    .presencial p{
+        font-size: 1.2em;
     }
 
     #box-local-consulta{
@@ -194,14 +215,89 @@
         align-items: center;
     }
 
+    #consulta-presencial{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
     #btn-whatsapp-box-consulta-presencial{
+        text-decoration: none;
+        background-color: var(--color01);
+        color: var(--color02);
+        padding: 15px 30px;
+        border-radius: 20px;
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    .online{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .online h3{
+        color: var(--color02);
+        font-family: 'Lobster Two', cursive;
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+
+    .online p{
+        font-size: 1.2em;
+    }
+
+    #consulta-online{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--color01);
+    }
+
+    #btn-whatsapp-box-consulta-online{
         text-decoration: none;
         background-color: var(--color02);
         color: var(--color01);
         padding: 15px 30px;
         border-radius: 20px;
         font-size: 1em;
+        font-weight: 500;
+    }
+
+        /*****************ZONA "RODAPE"***************************/
+
+    #footer-contato{
+        background-color: var(--color02);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        padding-bottom: 30px;
+    }
+
+    #footer-contato h2{
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        color: var(--color01);
+        font-size: 3em;
         font-weight: 600;
-        margin: 35px 0px 35px 0px;
+        margin-top: 20px;
+    }
+
+    #footer-contato a{
+        background-color: var(--color01);
+        text-decoration: none;
+        color: var(--color05);
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 15px;
+        border-radius: 40px;
+        width: 80%;
     }
 }
