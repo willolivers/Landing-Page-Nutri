@@ -107,7 +107,6 @@ main{
 
 .img-background{
     display: flex;
-    max-height: 400px;
     flex-direction: column;
 
 }
@@ -117,7 +116,239 @@ main{
     max-width: 1200px;
 }
 
-.separador{
-    position: relative;
-    transform: translate(0px, -100px);
+#quem-sou-eu{
+    background-color: var(--color05);
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 20px 53px 20px;
+    gap: 30px;
 }
+
+.img-perfil{
+    width: 250px;
+}
+
+#box-quem-sou-eu{
+    background-color: #265d3e7c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color04);
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+}
+
+#box-quem-sou-eu h2{
+    font-family: 'Lobster Two', cursive;
+    font-size: 2.5em;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+
+#box-quem-sou-eu p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+    /*****************ZONA "MINHAS ESPECIALIDADES"************************/
+
+    #box-minhas-especialidades{
+        background-color: var(--color01);
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #box-minhas-especialidades h2{
+        font-family: 'Lobster Two', cursive;
+        color: var(--color02);
+        font-weight: 400;
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .box-especialidades{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        gap: 25px;
+        width: 50%;
+        padding: 30px 20px;
+        text-align: center;
+        border: 1px solid var(--color05);
+        border-radius: 10px;
+        background-color: var(--color03);
+        color: var(--color05);
+    }
+
+    .box1, .box3{
+        margin-right: 40%;
+    }
+    .box2{
+        margin-left: 40%;
+    }
+
+    .box-especialidades h3{
+        font-size: 1.3em;
+        font-weight: 600;
+        text-transform: uppercase
+    }
+
+    .box-especialidades p{
+        font-size: 1.1em;
+        font-weight: 400;
+    }
+
+    #btn-whatsapp-box-especialidades{
+        text-decoration: none;
+        background-color: var(--color02);
+        color: var(--color01);
+        padding: 15px 30px;
+        border-radius: 20px;
+        font-size: 1em;
+        font-weight: 600;
+        margin-bottom: 35px;
+        transition: .5s;
+    }
+
+    #btn-whatsapp-box-especialidades:hover{
+        scale: 1.1;
+        background-color: #ffc281;
+    }
+
+        /*****************ZONA "CONSULTAS"***************************/
+
+        #consultas{
+            width: 1200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .img-consultas{
+            width: 90%;
+        }
+    
+        .box-consulta{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            max-width: 45%;
+            text-align: center;
+            border-radius: 10px;
+            background-color: var(--color06);
+            color: var(--color05);
+            margin-top: 45px;
+            margin-bottom: 45px;
+            padding: 45px 15px;
+        }
+    
+        .presencial h3{
+            color: var(--color01);
+            font-family: 'Lobster Two', cursive;
+            font-size: 2.5em;
+            font-weight: 600;
+        }
+    
+        .presencial p{
+            font-size: 1.2em;
+        }
+
+    
+        .presencial{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    
+        #consulta-presencial{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: var(--color02);
+            padding-bottom: 100px;
+            z-index: 1;
+        }
+    
+        #btn-whatsapp-box-consulta-presencial{
+            text-decoration: none;
+            background-color: var(--color01);
+            color: var(--color02);
+            padding: 15px 30px;
+            border-radius: 20px;
+            font-size: 1em;
+            font-weight: 400;
+            transition: .5s;
+        }
+    
+        #btn-whatsapp-box-consulta-presencial:hover{
+            scale: 1.1;
+            background-color: #3b8159;
+        }
+
+
+        .img-separador{
+            width: 1200px;
+            transform: translate(0px, -100px);
+            z-index: 3;
+        }
+
+    
+        .online{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .online h3{
+            color: var(--color02);
+            font-family: 'Lobster Two', cursive;
+            font-size: 2.5em;
+            font-weight: 500;
+        }
+    
+        .online p{
+            font-size: 1.2em;
+        }
+    
+        #consulta-online{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row-reverse;
+            background-color: var(--color01);
+            transform: translate(0px, -230px);
+            padding-top: 105px;
+            z-index: 2;
+        }
+    
+        #btn-whatsapp-box-consulta-online{
+            text-decoration: none;
+            background-color: var(--color02);
+            color: var(--color01);
+            padding: 15px 30px;
+            border-radius: 20px;
+            font-size: 1em;
+            font-weight: 500;
+            transition: .5s;
+        }
+    
+        #btn-whatsapp-box-consulta-online:hover{
+            scale: 1.1;
+            background-color: #ffc281;
+        }
