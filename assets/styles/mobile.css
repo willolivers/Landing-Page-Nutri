@@ -140,6 +140,13 @@
         color: var(--color05);
     }
 
+    .box1, .box3{
+        margin-right: 0%;
+    }
+    .box2{
+        margin-left: 0%;
+    }
+
     .box-especialidades h3{
         font-size: 1.3em;
         font-weight: 600;
@@ -172,7 +179,7 @@
 
     #consultas{
         background-color: var(--color02);
-        width: 100%;
+        width: 1200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -190,7 +197,6 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 25px;
-        width: 75%;
         text-align: center;
         border-radius: 10px;
         background-color: var(--color06);
@@ -243,6 +249,10 @@
         background-color: #3b8159;
     }
 
+    .img-separador{
+        display: none;
+    }
+
     .online{
         display: flex;
         flex-direction: column;
@@ -285,43 +295,43 @@
 
         /*****************ZONA "RODAPE"***************************/
 
-    #footer-contato{
-        background-color: var(--color02);
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 35px;
-        padding-bottom: 30px;
-    }
-
-    #footer-contato h2{
-        font-family: 'Inter', sans-serif;
-        text-align: center;
-        color: var(--color01);
-        font-size: 3em;
-        font-weight: 600;
-        margin-top: 20px;
-    }
-
-    #footer-contato a{
-        background-color: var(--color01);
-        text-decoration: none;
-        color: var(--color05);
-        font-size: 1.5em;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 8px;
-        padding: 15px;
-        border-radius: 40px;
-        width: 80%;
-        transition: .5s;
-    }
-
-    #footer-contato a:hover{
-        scale: 1.1;
-        background-color: #3b8159;
-    }
+        #footer-contato{
+            background-color: var(--color02);
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding-bottom: 30px;
+        }
+        
+        #footer-contato h2{
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            color: var(--color01);
+            font-size: 3em;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+        
+        #footer-contato a{
+            background-color: var(--color01);
+            text-decoration: none;
+            color: var(--color05);
+            font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 15px;
+            border-radius: 40px;
+            width: 80%;
+            transition: .5s;
+        }
+        
+        #footer-contato a:hover{
+            scale: 1.1;
+            background-color: #3b8159;
+        }
 }
