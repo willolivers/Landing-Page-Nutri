@@ -179,7 +179,7 @@
 
     #consultas{
         background-color: var(--color02);
-        width: 1200px;
+        max-width: 1200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
