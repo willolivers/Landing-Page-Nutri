@@ -27,10 +27,6 @@ header{
     width: 100%;
 }
 
-@media (max-width: 2000px){
-    
-}
-
 .nav-bar{
     display: flex;
     justify-content: space-between;
